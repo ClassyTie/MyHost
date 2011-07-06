@@ -1,0 +1,428 @@
+Buuuuuup... 
+ERROR: Garbage option.
+********* simple selection *********  ********* selection by list *********
+-A all processes                      -C by command name
+-N negate selection                   -G by real group ID (supports names)
+-a all w/ tty except session leaders  -U by real user ID (supports names)
+-d all except session leaders         -g by session OR by effective group name
+-e all processes                      -p by process ID
+T  all processes on this terminal     -s processes in the sessions given
+a  all w/ tty, including other users  -t by tty
+g  OBSOLETE -- DO NOT USE             -u by effective user ID (supports names)
+r  only running processes             U  processes for specified users
+x  processes w/o controlling ttys     t  by tty
+*********** output format **********  *********** long options ***********
+-o,o user-defined  -f full            --Group --User --pid --cols --ppid
+-j,j job control   s  signal          --group --user --sid --rows --info
+-O,O preloaded -o  v  virtual memory  --cumulative --format --deselect
+-l,l long          u  user-oriented   --sort --tty --forest --version
+-F   extra full    X  registers       --heading --no-heading --context
+                    ********* misc options *********
+-V,V  show version      L  list format codes  f  ASCII art forest
+-m,m,-L,-T,H  threads   S  children in sum    -y change -l format
+-M,Z  security data     c  true command name  -c scheduling class
+-w,w  wide output       n  numeric WCHAN,UID  -H process hierarchy
+/usr/local/bin/watch_battery: line 7: kill: -: arguments must be process or job IDs
+Buuuuuup... 
+ERROR: Garbage option.
+********* simple selection *********  ********* selection by list *********
+-A all processes                      -C by command name
+-N negate selection                   -G by real group ID (supports names)
+-a all w/ tty except session leaders  -U by real user ID (supports names)
+-d all except session leaders         -g by session OR by effective group name
+-e all processes                      -p by process ID
+T  all processes on this terminal     -s processes in the sessions given
+a  all w/ tty, including other users  -t by tty
+g  OBSOLETE -- DO NOT USE             -u by effective user ID (supports names)
+r  only running processes             U  processes for specified users
+x  processes w/o controlling ttys     t  by tty
+*********** output format **********  *********** long options ***********
+-o,o user-defined  -f full            --Group --User --pid --cols --ppid
+-j,j job control   s  signal          --group --user --sid --rows --info
+-O,O preloaded -o  v  virtual memory  --cumulative --format --deselect
+-l,l long          u  user-oriented   --sort --tty --forest --version
+-F   extra full    X  registers       --heading --no-heading --context
+                    ********* misc options *********
+-V,V  show version      L  list format codes  f  ASCII art forest
+-m,m,-L,-T,H  threads   S  children in sum    -y change -l format
+-M,Z  security data     c  true command name  -c scheduling class
+-w,w  wide output       n  numeric WCHAN,UID  -H process hierarchy
+/usr/local/bin/watch_battery: line 7: kill: -: arguments must be process or job IDs
+Buuuuuup... 
+ERROR: Garbage option.
+********* simple selection *********  ********* selection by list *********
+-A all processes                      -C by command name
+-N negate selection                   -G by real group ID (supports names)
+-a all w/ tty except session leaders  -U by real user ID (supports names)
+-d all except session leaders         -g by session OR by effective group name
+-e all processes                      -p by process ID
+T  all processes on this terminal     -s processes in the sessions given
+a  all w/ tty, including other users  -t by tty
+g  OBSOLETE -- DO NOT USE             -u by effective user ID (supports names)
+r  only running processes             U  processes for specified users
+x  processes w/o controlling ttys     t  by tty
+*********** output format **********  *********** long options ***********
+-o,o user-defined  -f full            --Group --User --pid --cols --ppid
+-j,j job control   s  signal          --group --user --sid --rows --info
+-O,O preloaded -o  v  virtual memory  --cumulative --format --deselect
+-l,l long          u  user-oriented   --sort --tty --forest --version
+-F   extra full    X  registers       --heading --no-heading --context
+                    ********* misc options *********
+-V,V  show version      L  list format codes  f  ASCII art forest
+-m,m,-L,-T,H  threads   S  children in sum    -y change -l format
+-M,Z  security data     c  true command name  -c scheduling class
+-w,w  wide output       n  numeric WCHAN,UID  -H process hierarchy
+/usr/local/bin/watch_battery: line 7: kill: -: arguments must be process or job IDs
+Buuuuuup... 
+ERROR: Garbage option.
+********* simple selection *********  ********* selection by list *********
+-A all processes                      -C by command name
+-N negate selection                   -G by real group ID (supports names)
+-a all w/ tty except session leaders  -U by real user ID (supports names)
+-d all except session leaders         -g by session OR by effective group name
+-e all processes                      -p by process ID
+T  all processes on this terminal     -s processes in the sessions given
+a  all w/ tty, including other users  -t by tty
+g  OBSOLETE -- DO NOT USE             -u by effective user ID (supports names)
+r  only running processes             U  processes for specified users
+x  processes w/o controlling ttys     t  by tty
+*********** output format **********  *********** long options ***********
+-o,o user-defined  -f full            --Group --User --pid --cols --ppid
+-j,j job control   s  signal          --group --user --sid --rows --info
+-O,O preloaded -o  v  virtual memory  --cumulative --format --deselect
+-l,l long          u  user-oriented   --sort --tty --forest --version
+-F   extra full    X  registers       --heading --no-heading --context
+                    ********* misc options *********
+-V,V  show version      L  list format codes  f  ASCII art forest
+-m,m,-L,-T,H  threads   S  children in sum    -y change -l format
+-M,Z  security data     c  true command name  -c scheduling class
+-w,w  wide output       n  numeric WCHAN,UID  -H process hierarchy
+/usr/local/bin/watch_battery: line 7: kill: -: arguments must be process or job IDs
+Buuuuuup... 
+ERROR: Garbage option.
+********* simple selection *********  ********* selection by list *********
+-A all processes                      -C by command name
+-N negate selection                   -G by real group ID (supports names)
+-a all w/ tty except session leaders  -U by real user ID (supports names)
+-d all except session leaders         -g by session OR by effective group name
+-e all processes                      -p by process ID
+T  all processes on this terminal     -s processes in the sessions given
+a  all w/ tty, including other users  -t by tty
+g  OBSOLETE -- DO NOT USE             -u by effective user ID (supports names)
+r  only running processes             U  processes for specified users
+x  processes w/o controlling ttys     t  by tty
+*********** output format **********  *********** long options ***********
+-o,o user-defined  -f full            --Group --User --pid --cols --ppid
+-j,j job control   s  signal          --group --user --sid --rows --info
+-O,O preloaded -o  v  virtual memory  --cumulative --format --deselect
+-l,l long          u  user-oriented   --sort --tty --forest --version
+-F   extra full    X  registers       --heading --no-heading --context
+                    ********* misc options *********
+-V,V  show version      L  list format codes  f  ASCII art forest
+-m,m,-L,-T,H  threads   S  children in sum    -y change -l format
+-M,Z  security data     c  true command name  -c scheduling class
+-w,w  wide output       n  numeric WCHAN,UID  -H process hierarchy
+/usr/local/bin/watch_battery: line 7: kill: -: arguments must be process or job IDs
+ERROR: Garbage option.
+********* simple selection *********  ********* selection by list *********
+-A all processes                      -C by command name
+-N negate selection                   -G by real group ID (supports names)
+-a all w/ tty except session leaders  -U by real user ID (supports names)
+-d all except session leaders         -g by session OR by effective group name
+-e all processes                      -p by process ID
+T  all processes on this terminal     -s processes in the sessions given
+a  all w/ tty, including other users  -t by tty
+g  OBSOLETE -- DO NOT USE             -u by effective user ID (supports names)
+r  only running processes             U  processes for specified users
+x  processes w/o controlling ttys     t  by tty
+*********** output format **********  *********** long options ***********
+-o,o user-defined  -f full            --Group --User --pid --cols --ppid
+-j,j job control   s  signal          --group --user --sid --rows --info
+-O,O preloaded -o  v  virtual memory  --cumulative --format --deselect
+-l,l long          u  user-oriented   --sort --tty --forest --version
+-F   extra full    X  registers       --heading --no-heading --context
+                    ********* misc options *********
+-V,V  show version      L  list format codes  f  ASCII art forest
+-m,m,-L,-T,H  threads   S  children in sum    -y change -l format
+-M,Z  security data     c  true command name  -c scheduling class
+-w,w  wide output       n  numeric WCHAN,UID  -H process hierarchy
+Buuuuuup (pgid=)... 
+/usr/local/bin/watch_battery: line 8: kill: -: arguments must be process or job IDs
+ERROR: Garbage option.
+********* simple selection *********  ********* selection by list *********
+-A all processes                      -C by command name
+-N negate selection                   -G by real group ID (supports names)
+-a all w/ tty except session leaders  -U by real user ID (supports names)
+-d all except session leaders         -g by session OR by effective group name
+-e all processes                      -p by process ID
+T  all processes on this terminal     -s processes in the sessions given
+a  all w/ tty, including other users  -t by tty
+g  OBSOLETE -- DO NOT USE             -u by effective user ID (supports names)
+r  only running processes             U  processes for specified users
+x  processes w/o controlling ttys     t  by tty
+*********** output format **********  *********** long options ***********
+-o,o user-defined  -f full            --Group --User --pid --cols --ppid
+-j,j job control   s  signal          --group --user --sid --rows --info
+-O,O preloaded -o  v  virtual memory  --cumulative --format --deselect
+-l,l long          u  user-oriented   --sort --tty --forest --version
+-F   extra full    X  registers       --heading --no-heading --context
+                    ********* misc options *********
+-V,V  show version      L  list format codes  f  ASCII art forest
+-m,m,-L,-T,H  threads   S  children in sum    -y change -l format
+-M,Z  security data     c  true command name  -c scheduling class
+-w,w  wide output       n  numeric WCHAN,UID  -H process hierarchy
+Buuuuuup (pgid=)... 
+/usr/local/bin/watch_battery: line 8: kill: -: arguments must be process or job IDs
+Buuuuuup (pgid=21037)... 
+/usr/local/bin/watch_battery: line 17: [: 13.35: integer expression expected
+/usr/local/bin/watch_battery: line 17: [: 13.31: integer expression expected
+/usr/local/bin/watch_battery: line 17: [: 13.29: integer expression expected
+/usr/local/bin/watch_battery: line 17: [: 13.26: integer expression expected
+/usr/local/bin/watch_battery: line 17: [: 13.22: integer expression expected
+/usr/local/bin/watch_battery: line 17: [: 13.18: integer expression expected
+/usr/local/bin/watch_battery: line 17: [: 13.15: integer expression expected
+/usr/local/bin/watch_battery: line 17: [: 13.11: integer expression expected
+/usr/local/bin/watch_battery: line 17: [: 13.08: integer expression expected
+/usr/local/bin/watch_battery: line 17: [: 13.04: integer expression expected
+/usr/local/bin/watch_battery: line 17: [: 13.00: integer expression expected
+/usr/local/bin/watch_battery: line 17: [: 12.97: integer expression expected
+/usr/local/bin/watch_battery: line 17: [: 12.95: integer expression expected
+/usr/local/bin/watch_battery: line 17: [: 12.91: integer expression expected
+Buuuuuup (pgid= 4357)... 
+/usr/local/bin/watch_battery: line 9: kill: -: arguments must be process or job IDs
+/usr/local/bin/watch_battery: line 9: kill: (4357) - No such process
+/usr/local/bin/watch_battery: line 18: [: 12.24: integer expression expected
+/usr/local/bin/watch_battery: line 18: [: 12.21: integer expression expected
+/usr/local/bin/watch_battery: line 18: [: 12.17: integer expression expected
+Buuuuuup (pgid= 5651)... 
+/usr/local/bin/watch_battery: line 9: kill: -: arguments must be process or job IDs
+/usr/local/bin/watch_battery: line 9: kill: (5651) - No such process
+12.01
+/usr/local/bin/watch_battery: line 19: [: 12.01: integer expression expected
+11.97
+/usr/local/bin/watch_battery: line 19: [: 11.97: integer expression expected
+11.94
+/usr/local/bin/watch_battery: line 19: [: 11.94: integer expression expected
+11.90
+/usr/local/bin/watch_battery: line 19: [: 11.90: integer expression expected
+11.86
+/usr/local/bin/watch_battery: line 19: [: 11.86: integer expression expected
+11.83
+/usr/local/bin/watch_battery: line 19: [: 11.83: integer expression expected
+11.79
+/usr/local/bin/watch_battery: line 19: [: 11.79: integer expression expected
+11.77
+/usr/local/bin/watch_battery: line 19: [: 11.77: integer expression expected
+Buuuuuup (pgid= 5926)... 
+/usr/local/bin/watch_battery: line 9: kill: -: arguments must be process or job IDs
+/usr/local/bin/watch_battery: line 9: kill: (5926) - No such process
+11.72
+/usr/local/bin/watch_battery: line 19: [: 11.72: integer expression expected
+11.70
+/usr/local/bin/watch_battery: line 19: [: 11.70: integer expression expected
+11.67
+/usr/local/bin/watch_battery: line 19: [: 11.67: integer expression expected
+11.63
+/usr/local/bin/watch_battery: line 19: [: 11.63: integer expression expected
+11.59
+/usr/local/bin/watch_battery: line 19: [: 11.59: integer expression expected
+11.56
+/usr/local/bin/watch_battery: line 19: [: 11.56: integer expression expected
+11.52
+/usr/local/bin/watch_battery: line 19: [: 11.52: integer expression expected
+11.50
+/usr/local/bin/watch_battery: line 19: [: 11.50: integer expression expected
+11.45
+/usr/local/bin/watch_battery: line 19: [: 11.45: integer expression expected
+e=11.45
+/usr/local/bin/watch_battery: line 19: [: 11.45: integer expression expected
+11.43
+/usr/local/bin/watch_battery: line 19: [: 11.43: integer expression expected
+e=11.41
+/usr/local/bin/watch_battery: line 19: [: 11.41: integer expression expected
+11.40
+/usr/local/bin/watch_battery: line 19: [: 11.40: integer expression expected
+e=11.38
+/usr/local/bin/watch_battery: line 19: [: 11.38: integer expression expected
+11.36
+/usr/local/bin/watch_battery: line 19: [: 11.36: integer expression expected
+e=11.36
+/usr/local/bin/watch_battery: line 19: [: 11.36: integer expression expected
+11.32
+/usr/local/bin/watch_battery: line 19: [: 11.32: integer expression expected
+e=11.30
+/usr/local/bin/watch_battery: line 19: [: 11.30: integer expression expected
+11.29
+/usr/local/bin/watch_battery: line 19: [: 11.29: integer expression expected
+e=11.27
+/usr/local/bin/watch_battery: line 19: [: 11.27: integer expression expected
+11.25
+/usr/local/bin/watch_battery: line 19: [: 11.25: integer expression expected
+e=11.23
+/usr/local/bin/watch_battery: line 19: [: 11.23: integer expression expected
+11.23
+/usr/local/bin/watch_battery: line 19: [: 11.23: integer expression expected
+e=11.21
+/usr/local/bin/watch_battery: line 19: [: 11.21: integer expression expected
+11.18
+/usr/local/bin/watch_battery: line 19: [: 11.18: integer expression expected
+e=11.18
+/usr/local/bin/watch_battery: line 19: [: 11.18: integer expression expected
+11.16
+/usr/local/bin/watch_battery: line 19: [: 11.16: integer expression expected
+e=11.14
+/usr/local/bin/watch_battery: line 19: [: 11.14: integer expression expected
+11.12
+/usr/local/bin/watch_battery: line 19: [: 11.12: integer expression expected
+e=11.11
+/usr/local/bin/watch_battery: line 19: [: 11.11: integer expression expected
+11.09
+/usr/local/bin/watch_battery: line 19: [: 11.09: integer expression expected
+e=11.07
+/usr/local/bin/watch_battery: line 19: [: 11.07: integer expression expected
+11.05
+/usr/local/bin/watch_battery: line 19: [: 11.05: integer expression expected
+e=11.03
+/usr/local/bin/watch_battery: line 19: [: 11.03: integer expression expected
+10.98
+/usr/local/bin/watch_battery: line 19: [: 10.98: integer expression expected
+e=10.96
+/usr/local/bin/watch_battery: line 19: [: 10.96: integer expression expected
+10.94
+/usr/local/bin/watch_battery: line 19: [: 10.94: integer expression expected
+e=10.94
+/usr/local/bin/watch_battery: line 19: [: 10.94: integer expression expected
+10.93
+/usr/local/bin/watch_battery: line 19: [: 10.93: integer expression expected
+e=10.91
+/usr/local/bin/watch_battery: line 19: [: 10.91: integer expression expected
+10.87
+/usr/local/bin/watch_battery: line 19: [: 10.87: integer expression expected
+e=10.87
+/usr/local/bin/watch_battery: line 19: [: 10.87: integer expression expected
+10.85
+/usr/local/bin/watch_battery: line 19: [: 10.85: integer expression expected
+e=10.84
+/usr/local/bin/watch_battery: line 19: [: 10.84: integer expression expected
+10.82
+/usr/local/bin/watch_battery: line 19: [: 10.82: integer expression expected
+e=10.80
+/usr/local/bin/watch_battery: line 19: [: 10.80: integer expression expected
+10.78
+/usr/local/bin/watch_battery: line 19: [: 10.78: integer expression expected
+e=10.76
+/usr/local/bin/watch_battery: line 19: [: 10.76: integer expression expected
+10.74
+/usr/local/bin/watch_battery: line 19: [: 10.74: integer expression expected
+Buuuuuup (pgid= 6701)... 
+/usr/local/bin/watch_battery: line 9: kill: -: arguments must be process or job IDs
+/usr/local/bin/watch_battery: line 9: kill: (6701) - No such process
+e=10
+e=10
+e=10
+e=10
+e=10
+e=10
+Buuuuuup (pgid= 7914)... 
+/usr/local/bin/watch_battery: line 9: kill: -: arguments must be process or job IDs
+/usr/local/bin/watch_battery: line 9: kill: (7914) - No such process
+e=10
+e=10
+e=10
+e=10
+e=10
+e=10
+e=10
+e=10
+e=10
+e=10
+e=10
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=9
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=8
+e=7
+Buuuuuup (pgid= 8347)... 
+/usr/local/bin/watch_battery: line 9: kill: -: arguments must be process or job IDs
+/usr/local/bin/watch_battery: line 9: kill: (8347) - No such process
+e=2
+MPlayer SVN-r33159-4.5.2 (C) 2000-2011 MPlayer Team
+162 audio & 359 video codecs
+mplayer: could not connect to socket
+mplayer: No such file or directory
+Failed to open LIRC support. You will not be able to use your remote control.
+
+Playing /root/alarm_1.mp3.
+Audio only file format detected.
+Load subtitles in /root/
+==========================================================================
+Opening audio decoder: [mp3lib] MPEG layer-2, layer-3
+AUDIO: 22050 Hz, 2 ch, s16le, 24.0 kbit/3.40% (ratio: 3000->88200)
+Selected audio codec: [mp3] afm: mp3lib (mp3lib MPEG layer-2, layer-3)
+==========================================================================
+AO: [oss] 22050Hz 2ch s16le (2 bytes per sample)
+Video: no video
+Starting playback...
+A:   0.0 (00.0) of 2.0 (02.0) ??,?% [JA:   0.0 (00.0) of 2.0 (02.0) ??,?% [JA:   0.1 (00.0) of 2.0 (02.0) ??,?% [JA:   0.1 (00.1) of 2.0 (02.0)  0.1% [JA:   0.2 (00.1) of 2.0 (02.0)  0.1% [JA:   0.2 (00.2) of 2.0 (02.0)  0.1% [JA:   0.3 (00.2) of 2.0 (02.0)  0.1% [JA:   0.3 (00.3) of 2.0 (02.0)  0.1% [JA:   0.4 (00.3) of 2.0 (02.0)  0.1% [JA:   0.5 (00.4) of 2.0 (02.0)  0.1% [JA:   0.5 (00.5) of 2.0 (02.0)  0.1% [JA:   0.6 (00.5) of 2.0 (02.0)  0.1% [JA:   0.6 (00.6) of 2.0 (02.0)  0.1% [JA:   0.6 (00.6) of 2.0 (02.0)  0.1% [JA:   0.7 (00.6) of 2.0 (02.0)  0.1% [JA:   0.7 (00.7) of 2.0 (02.0)  0.1% [JA:   0.8 (00.7) of 2.0 (02.0)  0.1% [JA:   0.8 (00.8) of 2.0 (02.0)  0.1% [JA:   0.9 (00.8) of 2.0 (02.0)  0.1% [JA:   0.9 (00.9) of 2.0 (02.0)  0.1% [JA:   1.0 (00.9) of 2.0 (02.0)  0.1% [JA:   1.0 (01.0) of 2.0 (02.0)  0.1% [JA:   1.1 (01.0) of 2.0 (02.0)  0.1% [JA:   1.1 (01.1) of 2.0 (02.0)  0.1% [JA:   1.2 (01.1) of 2.0 (02.0)  0.1% [JA:   1.2 (01.2) of 2.0 (02.0)  0.1% [JA:   1.3 (01.2) of 2.0 (02.0)  0.1% [JA:   1.3 (01.2) of 2.0 (02.0)  0.1% [JA:   1.3 (01.3) of 2.0 (02.0)  0.1% [JA:   1.4 (01.3) of 2.0 (02.0)  0.1% [JA:   1.4 (01.4) of 2.0 (02.0)  0.1% [JA:   1.5 (01.4) of 2.0 (02.0)  0.1% [JA:   1.5 (01.5) of 2.0 (02.0)  0.1% [JA:   1.6 (01.5) of 2.0 (02.0)  0.1% [JA:   1.6 (01.6) of 2.0 (02.0)  0.1% [JA:   1.7 (01.6) of 2.0 (02.0)  0.1% [JA:   1.7 (01.7) of 2.0 (02.0)  0.1% [JA:   1.7 (01.7) of 2.0 (02.0)  0.1% [J
+
+
+Exiting... (End of file)
+e=2
+Buuuuuup (pgid= 7041)... 
+/usr/local/bin/watch_battery: line 9: kill: -: arguments must be process or job IDs
+/usr/local/bin/watch_battery: line 9: kill: (7041) - No such process

@@ -1,0 +1,4 @@
+#! /bin/bash
+/usr/bin/sonata >/home/adrien/Desktop/sonata.out --hidden
+exit $?
+

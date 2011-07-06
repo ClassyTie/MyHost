@@ -1,0 +1,4 @@
+#! /bin/sh
+MUSIC_PLAYER_CLIENT="mpc"
+
+"$MUSIC_PLAYER_CLIENT" stop

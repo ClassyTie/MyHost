@@ -1,0 +1,14 @@
+#!/bin/sh 
+# xfce4-shutdown-as-user.sh
+#
+# Check how many users are currently logged into X.
+# If only one user is logged in, run a script which sets
+# up the environment to call xfce4-session-logout.
+
+LOGGED_IN_USER=`ls -trl /tmp/.ICE-unix/ | tail -n -1 | cut -d' ' -f3`
+NUM_X_USERS=`echo $LOGGED_IN_USER | wc -l`
+  
+if [ $NUM_X_USERS -eq 1 ]; then
+	su $LOGGED_IN_USER -c "/usr/local/bin/xfce4-user-session-logout ${@}"
+fi
+

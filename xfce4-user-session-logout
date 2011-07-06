@@ -1,0 +1,14 @@
+#!/bin/sh
+# xfce4-user-session-shutdown.sh
+#
+# Set up the environment so that DISPLAY and
+# SESSION_MANAGER are valid, and xfce4-session-logout can run
+
+HOST=`hostname`
+SESSION_ID=`ls -t /tmp/.ICE-unix/ | head -n1`
+# Note that distros use different syntax for the SESSION_MANAGER variable (this script has Debian's format).
+# If this does not work, then try something like SESSION_MANAGER="local/$HOST:@/tmp/.ICE-unix/$SESSION_ID"
+# instead. You can always find the correct format for your distribution by looking at the
+# value of SESSION_MANAGER in a X session.
+DISPLAY=:0 SESSION_MANAGER="local/$HOSTs:/tmp/.ICE-unix/$SESSION_ID" /usr/bin/xfce4-session-logout ${@}
+

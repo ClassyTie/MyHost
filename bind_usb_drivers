@@ -1,0 +1,36 @@
+#!/bin/bash 
+
+#DEVICE_ID_FILE_NAME_PATTERN="^[0-9a-f]{4}:[0-9a-f]{2}:[0-9a-f]{2}\.[0-9a-f]$"
+
+
+ALL_EHCI_HCD_DEVICE_ID=("0000:00:1d.0" "0000:00:1a.0")
+EHCI_HCD_FOLDER_PATH="/sys/bus/pci/drivers/ehci_hcd"
+
+ALL_XHCI_HCD_DEVICE_ID=("0000:07:00.0")
+XHCI_HCD_FOLDER_PATH="/sys/bus/pci/drivers/xhci_hcd"
+
+bind_all_ehci_hcd()
+{
+	echo "Binding USB2.0 devices: "
+	for device_id in "${ALL_EHCI_HCD_DEVICE_ID[@]}"; do
+		echo " --> ${device_id#@}"
+		echo -n "${device_id#@}" >"${EHCI_HCD_FOLDER_PATH}/bind"
+	done
+	return 0
+}
+
+bind_all_xhci_hcd()
+{
+	echo "Binding USB3.0 devices: "
+	for device_id in "${ALL_XHCI_HCD_DEVICE_ID[@]}"; do
+		echo " --> ${device_id#@}"
+		echo -n "${device_id#@}" >"${XHCI_HCD_FOLDER_PATH}/bind"
+	done
+	return 0
+}
+
+
+bind_all_ehci_hcd
+bind_all_xhci_hcd
+
+exit 0

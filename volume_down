@@ -1,0 +1,5 @@
+#! /bin/bash
+
+#echo "Volume down! " | wall
+amixer set Master "1%-" unmute
+play -q /home/adrien/Media/Sounds/Dong.wav &

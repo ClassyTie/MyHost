@@ -1,0 +1,3 @@
+#! /bin/sh
+amixer set Master toggle
+play -q "/home/adrien/Media/Sounds/Dong.wav" &

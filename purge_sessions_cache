@@ -1,0 +1,4 @@
+#! /bin/sh
+SESSIONS_CACHE_FOLDER_PATH="${HOME}/.cache/sessions"
+rm -R "${SESSIONS_CACHE_FOLDER_PATH}"
+

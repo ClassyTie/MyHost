@@ -1,0 +1,18 @@
+#! /bin/bash
+
+usb_device_path="${1}"
+
+usb_device_uuid=$( /sbin/blkid "${usb_device_path}" -o export | /bin/grep "UUID" | /bin/cut -d"=" -f2 )
+usb_device_label=$( /sbin/blkid "${usb_device_path}" -o export | /bin/grep "LABEL" | /bin/cut -d"=" -f2 )
+
+if [ ! -z "${usb_device_label}" ]; then
+	/bin/mkdir -p "/media/by-label/${usb_device_label}"
+	/bin/mount "${usb_device_path}" "/media/by-label/${usb_device_label}"
+fi
+
+/bin/mkdir -p "/media/by-uuid/${usb_device_uuid}"
+/bin/mount "${usb_device_path}" "/media/by-uuid/${usb_device_uuid}"
+
+exit 0
+
+

@@ -1,0 +1,34 @@
+#! /bin/bash
+WATCH_FREQUENCY=5
+LOW_ENERGY_TRESHOLD=8
+CRITICAL_ENERGY_TRESHOLD=2
+trap_term_signal()
+{
+	pgid=$( ps x -o "%c;%r" | egrep "^watch_bat" | uniq | cut -d";" -f2 )
+	echo "Buuuuuup (pgid=${pgid})... " | tee -a log.out
+	kill -TERM -${pgid}
+	return 0
+}
+
+if [ "${1}" = "--daemon" ]; then
+	{
+		low_energy_already_handled=0
+		while true; do
+			energy=$( ./battery_state | grep "energy" | cut -d"=" -f2 | sed 's/\%//g' | sed 's/^\([0-9]*\)\.[0-9]*$/\1/g' )
+			echo "e=${energy}"
+			if [ ${energy} -le ${LOW_ENERGY_TRESHOLD} ] && [ ${low_energy_already_handled} -eq 0 ]; then
+				./handler.sh "LOW_ENERGY" 
+				low_energy_already_handled=1
+			fi
+			sleep ${WATCH_FREQUENCY}
+		done
+	} &
+	trap "trap_term_signal ; exit ${?} " SIGTERM
+	wait
+	exit 0
+else
+	nohup "${0}" --daemon &
+	#disown -h ${!}
+	exit 0
+fi
+

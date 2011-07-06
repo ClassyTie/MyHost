@@ -1,0 +1,11 @@
+#! /bin/bash
+sleep 5
+/usr/bin/keepassx &
+process_id=$!
+sleep 5
+window_id=`xdotool search --name "Passwords.kdb"`
+sleep 5
+xdotool windowactivate $window_id
+xdotool key "Tab" "Tab" "Tab" "Return" 
+wait $process_id
+

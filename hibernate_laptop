@@ -1,0 +1,22 @@
+#! /bin/bash
+
+auto_wakeup=0
+duration=0
+if echo "${1}" | egrep "\-\-auto\-wakeup(=[0-9]*)?$" >"/dev/null"; then 
+	auto_wakeup=1
+	duration=`echo "${1}" | cut -d"=" -f2`
+fi
+
+rctwake_jid=0
+if [ ${auto_wakeup} -eq 1 ]; then
+	rtcwake -u -s $duration -m "on" >"/dev/null" &
+	rctwake_jid=$!
+fi
+
+dbus-send --system  --print-reply --dest="org.freedesktop.UPower" /org/freedesktop/UPower org.freedesktop.UPower.Hibernate >"/dev/null"
+
+if [ ${auto_wakeup} -eq 1 ]; then
+	kill ${rctwake_jid}
+fi
+
+exit 0

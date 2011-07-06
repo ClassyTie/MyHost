@@ -1,0 +1,5 @@
+#! /bin/bash
+SCREEN_ID="screen0"
+MONITOR_ID="monitor0"
+wallpaper_image_path="${1}"
+xfconf-query --channel "xfce4-desktop" --property "/backdrop/${SCREEN_ID}/${MONITOR_ID}/image-path" --set "${wallpaper_image_path}"

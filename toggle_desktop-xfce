@@ -1,0 +1,6 @@
+#! /bin/bash
+if xprop -root _NET_SHOWING_DESKTOP | grep 1 >/dev/null; then
+	wmctrl -k off
+else
+	wmctrl -k on
+fi

@@ -1,0 +1,13 @@
+#! /bin/bash
+
+BATTERY_NAME="BAT0"
+
+
+energy_now=$( cat "/sys/class/power_supply/${BATTERY_NAME}/energy_now" )
+energy_full=$( cat "/sys/class/power_supply/${BATTERY_NAME}/energy_full" )
+echo "energy="$( echo "scale=2; ( ${energy_now} * 100 / ${energy_full} )" | bc )"%"
+
+voltage=$( cat "/sys/class/power_supply/${BATTERY_NAME}/voltage_now" )
+power=$( cat "/sys/class/power_supply/${BATTERY_NAME}/power_now" )
+echo "voltage=${voltage}%"
+echo "power=${power}%"
